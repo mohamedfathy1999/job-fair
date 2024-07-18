@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Transactions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Customer Transactions</h1>
+    <div>
+        <input type="text" id="search-name" placeholder="Search for customer name">
+        <input type="number" id="search-amount" placeholder="Find the transaction amount">
+    </div>
+
+    <table id="customers-table">
+            <thead>
+                <tr>
+                    <th>Customer name</th>
+                    <th>Transaction history</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    <canvas id="transactions-chart"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
